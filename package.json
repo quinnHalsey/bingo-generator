@@ -5,7 +5,7 @@
   "scripts": {
     "start": "npx webpack-dev-server --mode development --open --hot",
     "build": "npx webpack --mode production",
-    "tscheck": "tsc"
+    "tsc": "tsc"
   },
   "keywords": [],
   "author": "Halsey Quinn",
