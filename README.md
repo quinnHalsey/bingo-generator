@@ -13,7 +13,7 @@ A boilerplate project for setting up a React application with TypeScript, Babel,
 
 ### Prerequisites
 
-- **Node.js** (14.x or later) and **npm** (or Yarn) installed on your machine.
+- **Node.js** (14 or later) and **npm** (or Yarn) installed on your machine.
 
 ### Installation
 
