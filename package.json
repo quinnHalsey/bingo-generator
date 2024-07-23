@@ -3,17 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx webpack-dev-server --mode development --open --hot",
+    "build": "npx webpack --mode production"
   },
   "keywords": [],
-  "author": "",
+  "author": "Halsey Quinn",
   "license": "ISC",
-  "description": "A simple React boilerplate",
+  "description": "A simple React/Typescript boilerplate",
   "devDependencies": {
     "@babel/cli": "^7.24.8",
     "@babel/core": "^7.24.9",
     "@babel/preset-env": "^7.24.8",
     "@babel/preset-react": "^7.24.7",
+    "babel-loader": "^9.1.3",
     "css-loader": "^7.1.2",
     "file-loader": "^6.2.0",
     "style-loader": "^4.0.0",
