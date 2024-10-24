@@ -1,6 +1,6 @@
 # React/TypeScript Boilerplate
 
-A boilerplate project for setting up a React application with TypeScript, Babel, and Webpack. Created for quickly setting up personal projects.
+A boilerplate project for setting up a front-end React application with TypeScript, Babel, and Webpack. Created for quickly setting up personal projects.
 
 ## Features
 
