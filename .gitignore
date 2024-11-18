@@ -4,5 +4,7 @@ package-lock.json
 
 .env
 
+src/helpers/constants.ts
+
 /dist
 /dist/*

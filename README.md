@@ -1,13 +1,4 @@
-# React/TypeScript Boilerplate
-
-A boilerplate project for setting up a front-end React application with TypeScript, Babel, and Webpack. Created for quickly setting up personal projects.
-
-## Features
-
-- **React 18+**: Latest version of React with the new JSX Transform.
-- **TypeScript**: Strong typing and enhanced development experience.
-- **Babel**: Transpiles modern JavaScript and TypeScript code.
-- **Webpack**: Bundles your application and includes a development server with hot reloading.
+# Bingo Board Generator
 
 ## Getting Started
 
@@ -20,38 +11,33 @@ A boilerplate project for setting up a front-end React application with TypeScri
 1. **Clone the Repository**:
 
    ```bash
-   git clone git@github.com:quinnHalsey/boilerplate.git
-   cd boilerplate
+   git clone git@github.com:quinnHalsey/bingo-generator.git
+   cd bingo-generator
+
+   ```
 
 2. **Install Dependencies**:
 
    ```
    npm install
-    ```
-    This command will install all the necessary dependencies specified in package.json.
+   ```
 
-3. **Run Development Servcer**:
+   This command will install all the necessary dependencies specified in package.json.
 
-    ```
-    npm run start
-    ```
-    This starts the Webpack development server and opens the application in your default web browser on **port 8000**. The server will watch for changes and automatically reload the page.
+## Usage
 
+1. **Configure Boards**:
 
-4. **Production Build**
+   Set board options, title, items and more in new file **src/helpers/constants.ts** based on **src/helpers/constants\_\_TEMPLATE.ts**
 
-    ```
-    npm run build
-    ```
-    This command creates a production-ready build of your application in the **/dist** directory. The build will be optimized and ready for deployment.
+2. **Run Development Servcer**:
 
+```
+npm run start
+```
 
-5. **Check Typescript**:
+This starts the Webpack development server and opens the application in your default web browser on **port 8000**.
 
-    ```
-    npm run tsc
-    ```
-    This runs TypeScript type checking to ensure that your code adheres to the type definitions specified in **tsconfig.json**.
+3. **Print Boards**
 
-
-
+When you're satisfied with all of the options and board output, print from your browser. The page breaks will occur after each board automatically.
